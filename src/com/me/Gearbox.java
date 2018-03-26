@@ -23,6 +23,12 @@ public class Gearbox {
         Gear neutral = new Gear(0, 0.0);
         this.gears.add(neutral);
 
+        //step 20a adding individual gears to the gearbox
+        for(int i = 0; i < maxGears; i++){
+
+            addGear(i, i * 5.3);
+        }
+
     }
 
     //step 13 add method to operate clutch
@@ -82,7 +88,7 @@ public class Gearbox {
             public double getRatio() {
                 return ratio;
 
-                //step 20 back to main
+                //step 20 back to main, nut do step 20a first here for adding gears
             }
 
             //step 9 create method for drivespeed
