@@ -14,7 +14,7 @@ public class Gearbox {
     public Gearbox(int maxGears) {
         this.maxGears = maxGears;
 
-        //step 4 initilize this manually
+        //step 4 initialize this manually
         this.gears = new ArrayList<>();
 
         //step 5 instance Gear
@@ -24,7 +24,7 @@ public class Gearbox {
     }
 
         //step 6 inner class
-        private class Gear {
+        class Gear {
 
             //step 7 add fields
             private int gearNumber;
