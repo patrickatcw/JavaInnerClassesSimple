@@ -29,6 +29,22 @@ public class Main {
         0.0
          */
 
+        //step 22 some changes
+        mcLaren.operateClutch(true);
+        mcLaren.changeGear(3);
+        mcLaren.operateClutch(false);
+        System.out.println(mcLaren.wheelSpeed(6000));
+        //step 23 run
+        /*
+        results;
+        Gear 1 selected.
+        5300.0
+        GRIND!
+        0.0
+        Gear 3 selected.
+        95400.0
+         */
+
 
         //step 13 add method to operate clutch in gearbox class
 
